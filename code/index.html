@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4bb45144cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+      <nav>
+       <img src="image/YOK.png" class="logo">
+       <ul>
+         <li><a href="#header">Home</a></li>
+         <li><a href="#about">About </a></li>
+         <li><a href="#Skills">Skill </a></li>
+         <li><a href="#education">Education </a></li>
+         <li><a href="#contact">Contact </a></li>
+       </ul>
+      </nav>
+      <div class="header-text">
+      <p>University student in <span>KMUTT</span> </p>
+      <h1>Hello, I'm Boonyawee</h1>
+      </div>
+  </div>
+</div>
+<!-- -----------about--------------- -->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="image/user.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Nice to meet you! My name is Boonyawee. I am computer engineering student in king mongkut's university of technology thonburi. I am currently have an interest in game and web developing which is so fun and exciting to learn.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Game Development</span><br>Building 3D games</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Creating 3D game (2022)</span><br>Compete in National software contest</li>
+                    <li><span>Creating 3D game (2022)</span><br>Compete in NASA Space App Challenge</li>
+                    <li><span>Designing website UI/UX (2022)</span><br>Compete in AFTERKLASS Business Kamp 2022</li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Middle school</span><br>Joseph upatham school</li>
+                    <li><span>High school</span><br>Suksanari school</li>
+                    <li><span>University</span><br>king mongkut's university of technology thonburi</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- ---------skills-------- -->
+<div id="Skills">
+    <div class="container">
+        <h1 class="sub-title-black">My Skills & Experiences</h1>
+        <div class="skills-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Creating 3D game</h2>
+                <p>Creating 3D game for compete in NASA Space App Challenge and National Software Contest: NSC </p>
+                <a href="Game development.pdf" download>learn more</a>               
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX design</h2>
+                <p>Designing UI/UX for website project to compete in AFTERKLASS Business Kamp 2022</p>
+                <a href="UIUX_design.pdf" download>learn more</a>               
+            </div>
+            <div>
+                <i class="fa-regular fa-lightbulb"></i>
+                <h2>Being creative!</h2>
+                <p>check out all of my work to see how creative i am</p>
+                <a href="#header">learn more</a>               
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------Education--------- -->
+<div id="education">
+    <div class="container">
+        <h1 class="sub-title">My Education</h1>
+        <div class="school-list">
+            <div class="school">
+                <img src="image\school-1.png">
+                <div class="layer">
+                    <h3>Joseph Upatham school</h3>
+                    <p>study here since 2015 until 2019</p>
+                    <a href="http://www.joseph.ac.th/jsb/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="school">
+                <img src="image\school-2.png">
+                <div class="layer">
+                    <h3>Suksanari school</h3>
+                    <p>study here since 2020 until 2022</p>
+                    <a href="https://www.snr.ac.th/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="school">
+                <img src="image\school-3.png">
+                <div class="layer">
+                    <h3>King Mongkut's University of Technology Thonburi</h3>
+                    <p>study here since 2023 until now</p>
+                    <a href="https://www.kmutt.ac.th/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------contact me------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-left">
+                <h1 class="sub-title-black">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>yok.byw@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0918838405</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/yokky.byw"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/yokkk_bbb/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+            </div>
+       
+            <div class="contact-right">
+                <form>
+                    <input typr="text" name="Name" placeholder="Your Name" required>
+                    <input typr="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+</body>
+</html>
